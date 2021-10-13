@@ -3,39 +3,40 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Ekaterina Borisova</title> <!--Отображается название вкладки-->
+    <title>Ekaterina Borisova</title>
+    <link rel="design" href="design.css"> <!--пока что пустой файл css-->
 </head>
 
 <body>
+<div class="visit-card">
     <div class="main-information">
         <img class="avatar"
-             src="../images/avatar.png"
-             width="200"
-             height="200"
+             src="src/avatar.png"
              alt="avatar"/>
 
-        <h1 class="my_name">Ekaterina Borisova</h1>
-        <blockquote class="short_information">
-            Software engineer, student SPbPU
-        </blockquote>
+        <div class="my_name">Ekaterina Borisova</div>
+        <div class="my_profession">Software engineer</div>
 
-     <button class="favorites_button">
-            <span>Add to Favorites</span>
-        </button>
-
-    </div>
-    <nav role="navigation" class="main-sections">
-        <nav><a href="./my_cv.html">My CV</a></nav>
-        <nav><a href="./projects.html">Projects</a></nav>
-        <nav><a href="./education.html">Education</a></nav>
 
         <nav class="connection">
-            <div>You can write me here:</div>
-            <li>kate_boriso2002@mail.ru</li>
-            <li><a href="https://vk.com/kateboriso">Vk</a></li>
-            <li><a href="https://www.instagram.com/_k_borisova/">Instagram</a></li>
+            <a href="https://ok.ru/profile/569442670075" target="_blank"><img class="icon" src="src/ok.png" alt="ok"/></a>
+            <a href="https://vk.com/kateboriso" target="_blank"><img class="icon" src="src/vk.png" alt="vk"/></a>
+            <a href="https://github.com/KateBor" target="_blank"><img class="icon" src="src/github.png" alt="github"/></a>
         </nav>
-    </nav>
+        <button class="CV_button">
+            <span>Download CV</span> <!-- доделать скачивание файла-->
+        </button>
+        <footer>
+            <div>©2021 All rights reserved.</div>
+        </footer>
+    </div>
+    <div class="big-field">
+        <main>
+            <div class="my_name">Ekaterina Borisova</div>
+            <div class="my_profession">Software engineer</div>
+        </main>
+    </div>
+</div>
 </body>
 </html>
 
