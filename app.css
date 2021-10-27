@@ -1,11 +1,11 @@
 .body {
   font-family: Helvetica, sans-serif;
-  color: white;
+  color: #FFFFFF;
   display: flex;
-  background-color: black;
+  background-color: white;
   justify-content: center;
   align-items: center;
-  height: 96.5vh;
+  height: 595px;
   flex-direction: column;
 }
 
@@ -14,13 +14,11 @@
   justify-content: center;
   background-color: #444444;
   width: 1127px;
-  height: 595px;
   border-radius: 30px;
 }
 
 .main-information {
-  height: 100%;
-  width: 30%;
+  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -59,8 +57,9 @@
 }
 
 .big-field {
-  height: 100%;
-  width: 70%;
+  height: 595px;
+  width: 747px;
+  left: 380px;
   border-radius: 30px;
   background-color: #222222;
   display: flex;
@@ -71,21 +70,20 @@
 
 .avatar {
   width: 180px;
-  margin-bottom: 8%;
+  margin-top: 23px;
+  margin-bottom: 8px;
   border-radius: 50%;
   box-shadow: 12px 12px 0 grey;
 }
 
 .my-name {
   text-align: center;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: bold;
-  color: white;
 }
 
 .my-profession {
   font-size: 20px;
-  color: white;
 }
 
 .icon {
@@ -96,25 +94,24 @@
 .main {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
 }
 
 .footer {
   font-size: 14px;
-  margin-bottom: 5%;
-  color: white;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 62px;
   font-weight: bold;
-  color: white;
+  font-size: 62px;
+  line-height: 71px;
+  text-align: center;
 }
 
 .profession {
   font-size: 22px;
-  color: white;
 }
 
 .main-column {
