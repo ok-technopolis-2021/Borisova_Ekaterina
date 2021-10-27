@@ -1,0 +1,128 @@
+.body {
+  font-family: Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 96.5vh;
+  flex-direction: column;
+}
+
+.visit-card {
+  display: flex;
+  justify-content: center;
+  background-color: #444444;
+  width: 1127px;
+  height: 595px;
+  border-radius: 30px;
+}
+
+.main-information {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.employee-info {
+  margin-top: 12.5%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.connection {
+  display: flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CV-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5vh solid white;
+  text-decoration: none;
+  color: white;
+  width: 168px;
+  height: 46px;
+  border-radius: 40px;
+  font-size: 17px;
+  background-color: #444444;
+  transition: padding 0.5s, background-color 0.5s, font-size 0.5s;
+}
+
+.big-field {
+  height: 100%;
+  width: 70%;
+  border-radius: 3vw;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 180px;
+  margin-bottom: 8%;
+  border-radius: 50%;
+  box-shadow: 12px 12px 0 grey;
+}
+
+.my-name {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.my-profession {
+  font-size: 20px;
+  color: white;
+}
+
+.icon {
+  width: 28px;
+  border-radius: 50%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  font-size: 14px;
+  margin-bottom: 5%;
+  color: white;
+}
+
+.name {
+  font-size: 62px;
+  font-weight: bold;
+  color: white;
+}
+
+.profession {
+  font-size: 22px;
+  color: white;
+}
+
+.main-column {
+  margin-top: 12.5%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
