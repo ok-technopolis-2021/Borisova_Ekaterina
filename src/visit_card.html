@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Ekaterina Borisova</title>
-    <link rel="stylesheet" href="app.css">
+    <!-- inject:css -->
+    <!-- endinject -->
+
 </head>
-<body>
-    <div class="visit-card">
+<body class="dark-theme">
+    <main class="visit-card">
         <div class="main-information">
             <div class="main-column">
 
@@ -25,7 +27,7 @@
                 </nav>
             </div>
             <button class="CV-button">
-                <span>Download CV</span> <!-- доделать скачивание файла-->
+                <span>Download CV</span>
             </button>
             <div class="footer">
                 <div>©2020 All rights reserved.</div>
@@ -37,7 +39,12 @@
                 <div class="profession">Software engineer</div>
             </main>
         </div>
-    </div>
+        <div id="switch-theme" class="switch-theme">
+            <span>Switch</span>
+        </div>
+    </main>
+    <!-- inject:js -->
+    <!-- endinject -->
 </body>
 </html>
 
