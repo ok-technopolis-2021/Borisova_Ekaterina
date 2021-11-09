@@ -6,38 +6,43 @@
     <title>Ekaterina Borisova</title>
     <link rel="stylesheet" href="app.css">
 </head>
-<body>
-    <div class="visit-card">
-        <div class="main-information">
-            <div class="main-column">
 
-                <img class="avatar"
+<body class="dark-theme">
+    <div class="visit-card">
+        <div class="visit-card__main-information">
+            <div class="visit-card__main-column">
+
+                <img class="main-column__avatar visit-card"
                      src="assets/avatar.png"
                      alt="avatar"/>
 
-                <div class="my-name">Ekaterina Borisova</div>
-                <div class="my-profession">Software engineer</div>
+                <div class="visit-card__my-name">Ekaterina Borisova</div>
+                <div class="visit-card__my-profession">Software engineer</div>
 
-                <nav class="connection">
+                <nav class="main-column__connection visit-card">
                     <a href="https://ok.ru/profile/569442670075" target="_blank"><img class="icon" src="assets/ok.png" alt="ok"/></a>
                     <a href="https://vk.com/kateboriso" target="_blank"><img class="icon" src="assets/vk.png" alt="vk"/></a>
                     <a href="https://github.com/KateBor" target="_blank"><img class="icon" src="assets/github.png" alt="github"/></a>
                 </nav>
             </div>
-            <button class="CV-button">
-                <span>Download CV</span> <!-- доделать скачивание файла-->
+            <button class="main-information__cv-button visit-card">
+                <span>Download CV</span>
             </button>
-            <div class="footer">
+            <footer>
                 <div>©2020 All rights reserved.</div>
+            </footer>
+        </div>
+        <div class="visit-card__big-field">
+            <div class="visit-card__main">
+                <div class="visit-card__name">Ekaterina Borisova</div>
+                <div class="visit-card__profession">Software engineer</div>
             </div>
         </div>
-        <div class="big-field">
-            <main class="main">
-                <div class="name">Ekaterina Borisova</div>
-                <div class="profession">Software engineer</div>
-            </main>
+        <div id="visit-card__switch-theme" class="visit-card__switch-theme">
+            <span>Switch</span>
         </div>
     </div>
+    <script src="./app.js"></script>
 </body>
 </html>
 
